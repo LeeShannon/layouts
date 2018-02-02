@@ -1,0 +1,214 @@
+.container-fluid {
+  padding: 0; }
+
+.page-height {
+  height: calc(100vh - 78.5px);
+  overflow: hidden; }
+
+.row {
+  margin: 0 !important; }
+
+.nav-link {
+  padding-right: 2.5rem !important; }
+
+.bg-light {
+  background: linear-gradient(to right, #f2f2f2, white, #f2f2f2) !important; }
+
+.cover-header {
+  height: calc(100vh - 78.5px);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.cover {
+  background: linear-gradient(white, rgba(242, 184, 70, 0.5)), url(../images/joshua-earle.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+#bigHeader {
+  font-size: calc(3vw + 2rem);
+  color: #4f4d4c; }
+
+#bigHeader2 {
+  font-size: calc(2vw + 2rem);
+  color: #4f4d4c;
+  font-weight: 400;
+  border-bottom: 1px solid #4f4d4c; }
+
+#bigHeader4 {
+  font-size: calc(2vw + 2rem);
+  color: #4f4d4c;
+  font-weight: 400;
+  border-bottom: 1px solid #fcb423;
+  margin-right: 10%; }
+
+#bigHeader3 {
+  font-size: calc(1vw + 1.5rem);
+  color: #4f4d4c;
+  font-weight: 400; }
+
+#thinFont {
+  font-size: calc(1vw + 1rem);
+  font-weight: 400;
+  color: #4f4d4c; }
+
+#bigHeader5 {
+  font-size: calc(3vw + 2rem);
+  color: #fcb423;
+  font-weight: 400;
+  text-shadow: 2px 2px black; }
+
+.teal {
+  color: #41bab2; }
+
+.dark-gray {
+  color: #4f4d4c; }
+
+#h3-style {
+  color: #4f4d4c;
+  font-weight: 400; }
+
+#credit {
+  margin-bottom: 0;
+  font-size: calc(0.5vw + 0.5rem); }
+  #credit a {
+    color: #12b7b3;
+    opacity: 0.8; }
+
+.paragraph-padding {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-right: 10%; }
+
+#flexfrog {
+  display: flex;
+  align-items: center;
+  height: 100vh; }
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-image-source: linear-gradient(#fcb423, #41bab2);
+  border-image-slice: 20;
+  opacity: 0.5;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%; }
+
+.background-big-square {
+  width: 35%;
+  padding-bottom: 35%;
+  border-style: solid;
+  border-width: 5px;
+  border-image-source: linear-gradient(#fcb423, #41bab2);
+  border-image-slice: 20;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+  transform: translate(-50%, -50%) rotate(45deg);
+  bottom: 50%;
+  top: 0;
+  left: 50%;
+  right: 50%; }
+
+.diamonds {
+  display: flex;
+  justify-content: space-between; }
+
+.diamond1 {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin-top: 5%; }
+
+.diamond2 {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin-top: 5%; }
+
+.diamond3 {
+  width: 250px;
+  height: 250px;
+  overflow: hidden; }
+
+.diamond-wrapper {
+  transform: rotate(45deg); }
+
+.diagonal-div {
+  width: 100%;
+  transform: rotate(315deg); }
+
+.square-image3 {
+  height: 150%;
+  width: 150%;
+  transform: rotate(-45deg) translateX(-20px) translateY(-80px);
+  object-fit: cover; }
+
+@media only screen and (max-width: 768px) {
+  .page-height {
+    overflow: visible; }
+  .diamond-wrapper {
+    transform: rotate(0deg); }
+  .diamond1 {
+    margin-top: 5%;
+    border-radius: 20%;
+    margin-left: 0;
+    transform: rotate(0deg); }
+  .diamond2 {
+    margin-top: 5%;
+    border-radius: 20%;
+    margin-left: 0;
+    transform: rotate(0deg); }
+  .diamond3 {
+    margin-top: 5%;
+    border-radius: 20%;
+    margin-left: 0;
+    transform: rotate(0deg); }
+  .square-image3 {
+    transform: rotate(0deg) translateX(-70px); } }
+
+.diagonal-background {
+  background-image: linear-gradient(315deg, #ace5e1 35%, white 35%);
+  width: 100%; }
+
+.be-relative {
+  position: relative;
+  z-index: 2; }
+
+.left-page-space {
+  left: 2%;
+  padding-top: 15px;
+  position: relative; }
+
+.anotherHeader {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), white), url(../images/mountains.jpg) center center no-repeat;
+  background-size: cover; }
+
+.square-div {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0px 0px 8px #41bab2;
+  border-radius: 50%; }
+
+.image-square {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%; }
+
+.smaller-para {
+  padding-left: 10%;
+  padding-right: 10%; }

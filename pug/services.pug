@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="./css/style.css")
+  body
+    head
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a(href="#").navbar-brand Navbar
+        button(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler 
+          span.navbar-toggler-icon
+          
+        .collapse.navbar-collapse.justify-content-end#navbarNavAltMarkup
+          .navbar-nav
+            a(href="index.html").nav-item.nav-link Home 
+            a(href="about.html").nav-item.nav-link About Us
+            a(href="services.html").nav-item.nav-link Services
+            a(href="#").nav-item.nav-link Link
+    
+  .container-fluid
+    .row 
+      .col-sm-12.anotherHeader
+        h1#bigHeader5 Our Services
+        
+    .row 
+      .col-sm-4
+        div(align="center").services
+          .square-div
+            img(src="../images/desk.jpg").image-square 
+          h3#h3-style Service
+          p.smaller-para.dark-gray
+            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      .col-sm-4
+        div(align="center").services
+          .square-div
+            img(src="../images/working.jpg").image-square 
+          h3#h3-style We do this
+          p.smaller-para.dark-gray
+            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+          
+      .col-sm-4
+        div(align="center").services
+          .square-div
+            img(src="../images/desk2.jpg").image-square 
+          h3#h3-style and also this
+          p.smaller-para.dark-gray
+            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.

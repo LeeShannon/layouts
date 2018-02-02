@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="./css/style.css")
+  body
+    head
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a(href="#").navbar-brand Navbar
+        button(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler 
+          span.navbar-toggler-icon
+          
+        .collapse.navbar-collapse.justify-content-end#navbarNavAltMarkup
+          .navbar-nav
+            a(href="index.html").nav-item.nav-link Home 
+            a(href="about.html").nav-item.nav-link About Us
+            a(href="services.html").nav-item.nav-link Services
+            a(href="#").nav-item.nav-link Link
+    
+  .container-fluid
+    .cover
+      .square
+      .cover-header
+        h1#bigHeader Hello World
+        h2#thinFont Lorem ipsum border gradient, consectetur adipiscing elit
+          
+      p#credit 
+        |Photo by 
+        a(href="https://unsplash.com/@joshuaearle") Joshua Earle 
+        |on 
+        a(href="https://unsplash.com/") Unsplash
