@@ -1,0 +1,71 @@
+html(lang="en")
+  head
+    title 
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="./css/style.css")
+    script(defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
+  body
+    head
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a(href="#").navbar-brand Navbar
+        button(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler 
+          span.navbar-toggler-icon
+          
+        .collapse.navbar-collapse.justify-content-end#navbarNavAltMarkup
+          .navbar-nav
+            a(href="index.html").nav-item.nav-link Home 
+            a(href="about.html").nav-item.nav-link About Us
+            a(href="services.html").nav-item.nav-link Services
+            a(href="contact.html").nav-item.nav-link Contact Us
+          
+    .container-fluid
+      .row 
+        .col-md-12.text-center
+          h1#bigHeader6 Get In Touch
+          
+      .row 
+        .col-md-6.padding
+          form
+            .form-group
+              input(type="text" placeholder="Name").form-control#name
+            .form-group
+              input(type="email" placeholder="Email").form-control#email
+            .form-group
+              text-area(type="email" placeholder="Your message").form-control#message    
+            .form-group
+              div(align="center").button-div
+                button(type="submit").btn.btn-info.btnStyle Send
+                
+        .col-md-3.offset-md-1.col-sm-12
+          .info-div
+            .contact-info
+              label Address: 
+              p
+                |Lorem ipsum border gradient, consectetur adipiscing elit
+              
+              br
+                
+              label Phone:
+              p
+                |123-456-789
+                
+            .social-media-links
+              .circle-icon
+                
+              .circle-icon
+                
+              .circle-icon
+                
+      .background-big-square
+            
+              
+            
+                 
+                 
+              
+            
+          
+      
